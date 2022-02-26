@@ -1,0 +1,157 @@
+
+body {
+    font-family: "Outfit";
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: 99.49vh;
+}
+
+.hover-images {
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    max-width: 18.75rem;
+    height: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.eye {
+    position: absolute;
+    left: 9%;
+    top: 8%;
+    right: 70%;
+    width: 18rem;
+    height: 18rem;
+    background-image: none;
+}
+
+.cube {
+    background-image: url("image-equilibrium.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 1%;
+    margin: 9%;
+    height: 18rem;
+    width: 18rem;
+}
+
+.eye:hover {
+    background-image: url("../nft-preview-card-component-main/images/icon-view.svg");
+    background-color:hsl(178, 100%, 50%);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 20% 20%;
+    opacity: 0.6;
+    transition: background-color ease-in-out 0.3s;
+}
+
+ .rectangle {
+    border-radius: 5%;
+    width: 21rem;
+    height: 34rem;
+    background-color:hsl(216, 50%, 16%);
+ }
+
+.left-row {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+#diamond {
+    margin-left: 6%;
+}
+
+.eth {
+    margin: auto;
+    margin-left: 1%;
+    color: hsl(178, 100%, 50%);
+}
+
+.right-row {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+#clock {
+    margin-left: 62%;
+    margin-top: -5%;
+}
+
+.days {
+    margin: auto;
+    margin-left: -1%;
+    margin-top: -5.5%;
+}
+
+hr {
+    height: 0.1%;
+    background-color: hsl(215, 32%, 27%);
+    border:none;
+    width: 90%;
+    margin: 5%;
+}
+
+.row-low {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.avatar {
+    margin-left: 5%;
+    width: 2rem;
+    height: 2rem;
+    border: 0.5px solid white;
+    border-radius: 50%;
+}
+
+.creation, #jules {
+    margin-top: 2%;
+    margin-left: 1%;
+}
+
+#jules {
+    color: white;
+    margin-left: -1%;
+}
+
+#jules:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+ .headline, .creation {
+     color: white;
+ }
+
+ .headline {
+     font-size: large;
+     font-weight: 600;
+     margin-left: 7%;
+     margin-top: -4%;
+ }
+
+ .headline:hover {
+     color: hsl(178, 100%, 50%);
+     cursor: pointer;
+ }
+
+ .description, .days, .creation {
+     color: hsl(215, 51%, 70%);
+ }
+
+ .description {
+     margin: 6%;
+     font-weight: 400;
+ }
+
+ 
